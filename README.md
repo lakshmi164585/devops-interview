@@ -154,8 +154,15 @@ free -k kilobytes
 # ansible and terraform  ?
 i dont have knowledge on that but if i gert chance i will definenetly work on that .
 
+# ###################################################################
+# kubernetes scenario based 
 
+# git flow branching strategy developers will create their own feature branch and work on the feature branch will merged to the development branch when ever you want to perform the release we used to create a new relese branch on the top of development and that will m=be merged to the development and master if we want to perform some hotfix we used to create branch on the top of master and that would be merged to development and master so int his strategy we have two fixed branches develop and master so first of all temporary branches  whenever developer checks the code we have enabled the webhooks in the job in the jenkinsjenkins have cont stages like** SCM checkouts** **complile**** code **build** **test** **code coverage** ****code quality analysis** ****security scan** ****vulnerability scan** **delivery** and **deployment****these stages are configured 
 
-
-
+# working on java based web appplication 
+# Rolling updates == your app running on k8s cluster  and you need to perform a rolling update to deploy  new version without causing the downtime can you plz exp the steps involved in the k8s resources you would use to do that
+# you want to create new version of your Docker image because youre going to use  the image for the pods 
+# horizontal pod auto scaling which scenario is useful and how you configured '?
+no of pods in the deployment replicaset or the statefulset based on the metrics that we have selected and all so first of all in order to enable that one we need to enable the metric server  we need before using the HPA  based on the CPU Metrics or not we need to ..........
+# persistent storage == ability of a 
 
